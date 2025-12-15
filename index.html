@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Stopwatch with Laps</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="welcome-screen" id="welcome">
+    <div class="welcome-content">
+      <h1>Digital Stop Watch</h1>
+      <p>Made using HTML, CSS and JavaScript</p>
+      <button id="enter-app">Open Stopwatch</button>
+    </div>
+  </div>
+
+  <div class="container" id="app" style="display:none;">
+    <h1 class="heading">⏱️ Stopwatch</h1>
+    <div class="time-display">00:00:00.00</div>
+    <div class="controls">
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+      <button id="lap">Lap</button>
+      <button id="reset">Reset</button>
+    </div>
+    <ul class="laps"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
